@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "name": "bracelet1", 
+        "price": "200€", 
+        "img": "../img/br-songe-clair.png",
+        "description": "lorem"
+    },
+    {
+        "id": 2,
+        "name": "bague1", 
+        "price": "100€", 
+        "img": "../img/bague1.png",
+        "description": "lorem"
+    }, 
+    {
+        "id": 3,
+        "name": "bracelet2", 
+        "price": "150€", 
+        "img": "../img/br-songe-clair.png",
+        "description": "lorem"
+    }, 
+    {
+        "id": 4,
+        "name": "bracelet3", 
+        "price": "50€", 
+        "img": "../img/br-songe-clair.png",
+        "description": "lorem"
+    }
+]

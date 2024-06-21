@@ -1,0 +1,53 @@
+[
+    [
+        {
+            "name": "bracelet1", 
+            "price": "200€", 
+            "img": "../img/br-songe-clair.png"
+        }, 
+        {
+            "name": "bague1", 
+            "price": "100€", 
+            "img": "../img/bague1.png"
+        }, 
+        {
+            "name": "bracelet2", 
+            "price": "150€", 
+            "img": "../img/br-songe-clair.png"
+        }
+    ],
+    [
+        {
+            "name": "bracelet1", 
+            "price": "200€", 
+            "img": "../img/br-songe-clair.png"
+        }, 
+        {
+            "name": "bague1", 
+            "price": "100€", 
+            "img": "../img/bague1.png"
+        }, 
+        {
+            "name": "bracelet2", 
+            "price": "150€", 
+            "img": "../img/br-songe-clair.png"
+        }
+    ],
+    [
+        {
+            "name": "bracelet1", 
+            "price": "200€", 
+            "img": "../img/br-songe-clair.png"
+        }, 
+        {
+            "name": "bague1", 
+            "price": "100€", 
+            "img": "../img/bague1.png"
+        }, 
+        {
+            "name": "bracelet2", 
+            "price": "150€", 
+            "img": "../img/br-songe-clair.png"
+        }
+    ]
+]

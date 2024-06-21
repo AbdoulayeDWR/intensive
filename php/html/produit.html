@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page</title>
+    <link rel="stylesheet" href="../css/html.css">
+</head>
+<body>
+    <div class="main-container">
+        <div class="nav">
+            <div class="image"></div>
+            <div class="frame">
+                <div class="bijoux"><a href="produit.php">Bijoux</a></div>
+                <div class="createurs">Créateurs</div>
+                <div class="lesprit-xxi-x">L'esprit XXI X</div>
+                <div class="connexion">Connexion</div>
+                <div class="panier">Panier</div>
+            </div>
+        </div>
+
+        <div class="frame-1">
+            <div class="frame-2">
+                <div class="frame-3">
+                    <div id="rectangle" class="rectangle clickable" data-image="bo_meduse_bleu.png"></div>
+                    <div id="rectangle-4" class="rectangle clickable" data-image="br-songe-clair.png"></div>
+                    <div id="rectangle-5" class="rectangle clickable" data-image="bague1.png"></div>
+                    <div id="rectangle-6" class="rectangle clickable" data-image="BO_DONNA_V2.png"></div>
+                </div>
+                <div id="rectangle-7" class="rectangle-7" style="background-image: url('../img/BO_MIAMI2.png');"></div>
+                <div class="frame-8">
+                    <div class="product-name">Product name</div>
+                    <div class="elegante-intemporelle-bague-bristol-vermeil">
+                        Éléquente et intemporelle, la bague 'Bristol' en vermeil capture l'essence du raffinement avec sa magnifique pierre de lapis-lazuli. Le bleu profond de la pierre est mis en valeur par un cadre en vermeil doré, offrant une combinaison de luxe et de mystère qui attire inévitablement le regard.
+                    </div>
+                    <div class="euro">100€</div>
+                    <div class="taille">
+                        <button>49</button>
+                        <button>50</button>
+                        <button>52</button>
+                        <button>56</button>
+                    </div>
+                    <button class="ajouter-au-panier">Ajouter au panier</button>
+                </div>
+            </div>
+
+            <div class="frame-9">
+                <div class="big-title">Big title here</div>
+                <p>Éléquente et intemporelle, la bague 'Bristol' en vermeil capture l'essence du raffinement avec sa magnifique pierre de lapis-lazuli...</p>
+            </div>
+
+            <div class="frame-9">
+                <div class="big-title">Big title here</div>
+                <p>Référence: 10004553-4</p>
+                <p>En stock: 10 Produits</p>
+                <p>Caractéristiques: Matière: Bijoux doré, Bijoux: Bagues</p>
+                <p>Références spécifiques: Ean13: 2804553099096</p>
+            </div>
+
+            <div class="frame-9">
+                <div class="big-title">Big title here</div>
+                <div class="product-list">
+                    <div class="product-item">
+                        <p>Collier Petite Chérie</p>
+                        <a href="#">En savoir plus</a>
+                        <img src="../img/Collier-Petite-Chérie.jpg" alt="Collier Petite Chérie">
+                    </div>
+                    <div class="product-item">
+                        <p>Créoles Lolipop</p>
+                        <a href="#">En savoir plus</a>
+                        <img src="../img/Créoles-Lolipop.png" alt="Créoles Lolipop">
+                    </div>
+                    <div class="product-item">
+                        <p>Collier Mayflower</p>
+                        <a href="#">En savoir plus</a>
+                        <img src="../img/Collier-Mayflower.png" alt="Collier Mayflower">
+                    </div>
+                </div>
+            </div>
+    
+            <footer class="footer">
+                <div class="footer-left">
+                    <img src="../img/logo1.png" alt="XXI X Logo">
+                    <p>En créant Vingt et une heures dix, j'ai souhaité vous faire partager mon enthousiasme pour les bijoux de créateurs et vous faire rencontrer des artisans avec des sensibilités différentes. Les bijoux que je choisis sont à la fois évidents et captivants, ce sont des objets intimistes : ils entrent en affinité avec la femme qui les porte.</p>
+                </div>
+                <div class="footer-center">
+                    <h3>Menu</h3>
+                    <ul>
+                        <li><a href="#">Accueil</a></li>
+                        <li><a href="#">Bijoux</a></li>
+                        <li><a href="#">Créateurs</a></li>
+                        <li><a href="#">L'esprit XXI X</a></li>
+                        <li><a href="#">Connexion</a></li>
+                        <li><a href="#">Panier</a></li>
+                    </ul>
+                </div>
+                <div class="footer-right">
+                    <h3>Suivez-nous</h3>
+                    <div class="social-links">
+                        <a href="#"><img src="../img/instagram_icon.png" alt="Instagram"></a>
+                        <a href="#"><img src="../img/tiktok_icon.png" alt="TikTok"></a>
+                        <a href="#"><img src="../img/facebook_icon.png" alt="Facebook"></a>
+                    </div>
+                    <h3>Contact</h3>
+                    <p>30 rue de Charonne<br>75011 Paris France<br>Appel : 09 53 23 94 40</p>
+                </div>
+            </footer>
+        </div>
+        </div>
+    </div>
+
+    <script>
+        document.querySelectorAll('.clickable').forEach(item => {
+            item.addEventListener('click', event => {
+                const newImage = event.target.getAttribute('data-image');
+                document.getElementById('rectangle-7').style.backgroundImage = `url('../img/${newImage}')`;
+            });
+        });
+    </script>
+</body>
+</html>

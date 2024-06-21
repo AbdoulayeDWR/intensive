@@ -1,0 +1,252 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+}
+
+body {
+    font-family: var(--default-font-family);
+    background: #fbfbf4;
+}
+
+.main-container {
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    gap: 33.47%;
+    width: 84.44%;
+    margin: 3.33% 0 0 7.78%;
+}
+
+.image {
+    flex-shrink: 0;
+    width: 8.61%;
+    height: 80px;
+    background: url('../img/logo1.png') no-repeat center;
+    background-size: cover;
+}
+
+.frame {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    gap: 24px;
+    width: 35.83%;
+}
+
+.bijoux, .createurs, .lesprit-xxi-x, .connexion, .panier {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.frame-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 200px;
+    width: 100%;
+    margin-top: 75px;
+}
+
+.frame-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    width: 76.04%;
+}
+
+.frame-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    width: 100px;
+}
+
+.rectangle, .rectangle-4, .rectangle-5, .rectangle-6 {
+    width: 100px;
+    height: 101px;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.rectangle {
+    background: url('../img/bo_meduse_bleu.png') no-repeat center;
+}
+
+.rectangle-4 {
+    background: url('../img/br-songe-clair.png') no-repeat center;
+}
+
+.rectangle-5 {
+    background: url('../img/bague1.png') no-repeat center;
+}
+
+.rectangle-6 {
+    background: url('../img/BO_DONNA_V2.png') no-repeat center;
+}
+
+.rectangle-7 {
+    width: 550px;
+    height: 550px;
+    background-size: cover;
+}
+
+.frame-8 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 75px;
+    width: 385px;
+}
+
+.product-name {
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.elegante-intemporelle-bague-bristol-vermeil {
+    width: 100%;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.euro {
+    font-size: 40px;
+    font-weight: 600;
+    color: #decea2;
+}
+
+.taille button {
+    margin-right: 5px;
+}
+
+.ajouter-au-panier {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.frame-9 {
+    width: 90%;
+    margin: 50px 30px;
+}
+
+.big-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.product-list {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0;
+}
+
+.product-item {
+    width: 30%;
+    text-align: center;
+    border-color: #000;
+    border-style: solid;
+}
+
+.product-item {
+    width: 30%;
+    text-align: center;
+}
+
+.product-item img {
+    width: 100%;
+    height: auto;
+}
+
+.product-item p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.product-item a {
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    background: #FBFBF4;
+}
+
+.footer-left,
+.footer-center,
+.footer-right {
+    width: 30%;
+}
+
+.footer-left img {
+    width: 50px;
+    height: auto;
+}
+
+.footer-left p {
+    margin-top: 20px;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.footer-center h3,
+.footer-right h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.footer-center ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-center ul li {
+    margin-bottom: 10px;
+}
+
+.footer-center ul li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+}
+
+.footer-right .social-links {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.footer-right .social-links a img {
+    width: 20px;
+    height: auto;
+}
+
+.footer-right p {
+    font-size: 14px;
+    line-height: 1.5;
+}
